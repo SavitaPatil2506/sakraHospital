@@ -14,6 +14,9 @@ public class Appication {
 		for(String eachItem:nameList) {
 			System.out.println(eachItem);
 		}
+		
+		Book java=new Book(102,"first java");
+		System.out.println(java.getBookName());
 
 	}
 
